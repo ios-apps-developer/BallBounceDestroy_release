@@ -1,0 +1,466 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F4484B2F2D0B1155007B1EE2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4484B292D0B1155007B1EE2 /* Preview Assets.xcassets */; };
+		F4484B302D0B1155007B1EE2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4484B2B2D0B1155007B1EE2 /* Assets.xcassets */; };
+		F4484B312D0B1155007B1EE2 /* BallBounceDestroyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4484B2C2D0B1155007B1EE2 /* BallBounceDestroyApp.swift */; };
+		F4484B322D0B1155007B1EE2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4484B2D2D0B1155007B1EE2 /* ContentView.swift */; };
+		F4484B372D0B3022007B1EE2 /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4484B362D0B301F007B1EE2 /* MenuView.swift */; };
+		F4484B392D0B3032007B1EE2 /* SplashScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4484B382D0B3031007B1EE2 /* SplashScreen.swift */; };
+		F4484B3B2D0B3041007B1EE2 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4484B3A2D0B3040007B1EE2 /* OnboardingView.swift */; };
+		F44B54E72D1014E500722B12 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F44B54E62D1014E200722B12 /* SettingsView.swift */; };
+		F44B54E92D10188800722B12 /* MusicManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F44B54E82D10188700722B12 /* MusicManager.swift */; };
+		F44B54EB2D101B2000722B12 /* music_game_bg.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F44B54EA2D101B2000722B12 /* music_game_bg.mp3 */; };
+		F44B54ED2D101C2900722B12 /* LeaderBoardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F44B54EC2D101C2300722B12 /* LeaderBoardView.swift */; };
+		F44B54EF2D1021F300722B12 /* GameCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F44B54EE2D1021EE00722B12 /* GameCoordinator.swift */; };
+		F4CFFE232D0C5B4F00A57D00 /* ShopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4CFFE222D0C5B4C00A57D00 /* ShopView.swift */; };
+		F4CFFE262D0C5BF400A57D00 /* ShopManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4CFFE252D0C5BF200A57D00 /* ShopManager.swift */; };
+		F4CFFE282D0C6A2B00A57D00 /* SanasoftKladezBlack.kz.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F4CFFE272D0C6A2B00A57D00 /* SanasoftKladezBlack.kz.ttf */; };
+		F4CFFE2B2D0C6AA000A57D00 /* FontManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4CFFE2A2D0C6A9B00A57D00 /* FontManager.swift */; };
+		F4F885212D10E30F007E6E13 /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4F885202D10E30C007E6E13 /* GameView.swift */; };
+		F4F885232D10E41A007E6E13 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4F885222D10E418007E6E13 /* GameScene.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F4484B182D0B1147007B1EE2 /* BallBounceDestroy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BallBounceDestroy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4484B292D0B1155007B1EE2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F4484B2B2D0B1155007B1EE2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F4484B2C2D0B1155007B1EE2 /* BallBounceDestroyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BallBounceDestroyApp.swift; sourceTree = "<group>"; };
+		F4484B2D2D0B1155007B1EE2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F4484B362D0B301F007B1EE2 /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
+		F4484B382D0B3031007B1EE2 /* SplashScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreen.swift; sourceTree = "<group>"; };
+		F4484B3A2D0B3040007B1EE2 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		F44B54E62D1014E200722B12 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		F44B54E82D10188700722B12 /* MusicManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicManager.swift; sourceTree = "<group>"; };
+		F44B54EA2D101B2000722B12 /* music_game_bg.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = music_game_bg.mp3; sourceTree = "<group>"; };
+		F44B54EC2D101C2300722B12 /* LeaderBoardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeaderBoardView.swift; sourceTree = "<group>"; };
+		F44B54EE2D1021EE00722B12 /* GameCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameCoordinator.swift; sourceTree = "<group>"; };
+		F4CFFE222D0C5B4C00A57D00 /* ShopView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopView.swift; sourceTree = "<group>"; };
+		F4CFFE252D0C5BF200A57D00 /* ShopManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopManager.swift; sourceTree = "<group>"; };
+		F4CFFE272D0C6A2B00A57D00 /* SanasoftKladezBlack.kz.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = SanasoftKladezBlack.kz.ttf; sourceTree = "<group>"; };
+		F4CFFE292D0C6A3400A57D00 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		F4CFFE2A2D0C6A9B00A57D00 /* FontManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontManager.swift; sourceTree = "<group>"; };
+		F4F885202D10E30C007E6E13 /* GameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
+		F4F885222D10E418007E6E13 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F4484B152D0B1147007B1EE2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F4484B0F2D0B1147007B1EE2 = {
+			isa = PBXGroup;
+			children = (
+				F4484B2E2D0B1155007B1EE2 /* BallBounceDestroy */,
+				F4484B192D0B1147007B1EE2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F4484B192D0B1147007B1EE2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F4484B182D0B1147007B1EE2 /* BallBounceDestroy.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F4484B2A2D0B1155007B1EE2 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				F4484B292D0B1155007B1EE2 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F4484B2E2D0B1155007B1EE2 /* BallBounceDestroy */ = {
+			isa = PBXGroup;
+			children = (
+				F4CFFE292D0C6A3400A57D00 /* Info.plist */,
+				F4CFFE242D0C5BEA00A57D00 /* GameManagers */,
+				F4484B2A2D0B1155007B1EE2 /* Preview Content */,
+				F4484B352D0B29E9007B1EE2 /* Resources */,
+				F4484B342D0B29E3007B1EE2 /* App */,
+				F4484B332D0B29DE007B1EE2 /* Views */,
+			);
+			path = BallBounceDestroy;
+			sourceTree = "<group>";
+		};
+		F4484B332D0B29DE007B1EE2 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F4F885222D10E418007E6E13 /* GameScene.swift */,
+				F4F885202D10E30C007E6E13 /* GameView.swift */,
+				F44B54EC2D101C2300722B12 /* LeaderBoardView.swift */,
+				F44B54E62D1014E200722B12 /* SettingsView.swift */,
+				F4CFFE222D0C5B4C00A57D00 /* ShopView.swift */,
+				F4484B3A2D0B3040007B1EE2 /* OnboardingView.swift */,
+				F4484B382D0B3031007B1EE2 /* SplashScreen.swift */,
+				F4484B362D0B301F007B1EE2 /* MenuView.swift */,
+				F4484B2D2D0B1155007B1EE2 /* ContentView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		F4484B342D0B29E3007B1EE2 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				F4484B2C2D0B1155007B1EE2 /* BallBounceDestroyApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		F4484B352D0B29E9007B1EE2 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F4CFFE272D0C6A2B00A57D00 /* SanasoftKladezBlack.kz.ttf */,
+				F4484B2B2D0B1155007B1EE2 /* Assets.xcassets */,
+				F44B54EA2D101B2000722B12 /* music_game_bg.mp3 */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		F4CFFE242D0C5BEA00A57D00 /* GameManagers */ = {
+			isa = PBXGroup;
+			children = (
+				F44B54EE2D1021EE00722B12 /* GameCoordinator.swift */,
+				F44B54E82D10188700722B12 /* MusicManager.swift */,
+				F4CFFE2A2D0C6A9B00A57D00 /* FontManager.swift */,
+				F4CFFE252D0C5BF200A57D00 /* ShopManager.swift */,
+			);
+			path = GameManagers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F4484B172D0B1147007B1EE2 /* BallBounceDestroy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F4484B262D0B1148007B1EE2 /* Build configuration list for PBXNativeTarget "BallBounceDestroy" */;
+			buildPhases = (
+				F4484B142D0B1147007B1EE2 /* Sources */,
+				F4484B152D0B1147007B1EE2 /* Frameworks */,
+				F4484B162D0B1147007B1EE2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BallBounceDestroy;
+			packageProductDependencies = (
+			);
+			productName = BallBounceDestroy;
+			productReference = F4484B182D0B1147007B1EE2 /* BallBounceDestroy.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F4484B102D0B1147007B1EE2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1610;
+				LastUpgradeCheck = 1610;
+				TargetAttributes = {
+					F4484B172D0B1147007B1EE2 = {
+						CreatedOnToolsVersion = 16.1;
+					};
+				};
+			};
+			buildConfigurationList = F4484B132D0B1147007B1EE2 /* Build configuration list for PBXProject "BallBounceDestroy" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F4484B0F2D0B1147007B1EE2;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = F4484B192D0B1147007B1EE2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F4484B172D0B1147007B1EE2 /* BallBounceDestroy */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F4484B162D0B1147007B1EE2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F44B54EB2D101B2000722B12 /* music_game_bg.mp3 in Resources */,
+				F4484B2F2D0B1155007B1EE2 /* Preview Assets.xcassets in Resources */,
+				F4484B302D0B1155007B1EE2 /* Assets.xcassets in Resources */,
+				F4CFFE282D0C6A2B00A57D00 /* SanasoftKladezBlack.kz.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F4484B142D0B1147007B1EE2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F44B54ED2D101C2900722B12 /* LeaderBoardView.swift in Sources */,
+				F4CFFE232D0C5B4F00A57D00 /* ShopView.swift in Sources */,
+				F4484B392D0B3032007B1EE2 /* SplashScreen.swift in Sources */,
+				F4484B312D0B1155007B1EE2 /* BallBounceDestroyApp.swift in Sources */,
+				F44B54E72D1014E500722B12 /* SettingsView.swift in Sources */,
+				F4484B372D0B3022007B1EE2 /* MenuView.swift in Sources */,
+				F44B54EF2D1021F300722B12 /* GameCoordinator.swift in Sources */,
+				F4484B3B2D0B3041007B1EE2 /* OnboardingView.swift in Sources */,
+				F4484B322D0B1155007B1EE2 /* ContentView.swift in Sources */,
+				F4CFFE2B2D0C6AA000A57D00 /* FontManager.swift in Sources */,
+				F4CFFE262D0C5BF400A57D00 /* ShopManager.swift in Sources */,
+				F4F885212D10E30F007E6E13 /* GameView.swift in Sources */,
+				F4F885232D10E41A007E6E13 /* GameScene.swift in Sources */,
+				F44B54E92D10188800722B12 /* MusicManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		F4484B242D0B1148007B1EE2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F4484B252D0B1148007B1EE2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F4484B272D0B1148007B1EE2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"BallBounceDestroy/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BallBounceDestroy/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Ball Bounce Destroy";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.action-games";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.volodymyrrumiantsev.ballbouncedestroy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F4484B282D0B1148007B1EE2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"BallBounceDestroy/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BallBounceDestroy/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Ball Bounce Destroy";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.action-games";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.volodymyrrumiantsev.ballbouncedestroy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F4484B132D0B1147007B1EE2 /* Build configuration list for PBXProject "BallBounceDestroy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4484B242D0B1148007B1EE2 /* Debug */,
+				F4484B252D0B1148007B1EE2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F4484B262D0B1148007B1EE2 /* Build configuration list for PBXNativeTarget "BallBounceDestroy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4484B272D0B1148007B1EE2 /* Debug */,
+				F4484B282D0B1148007B1EE2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F4484B102D0B1147007B1EE2 /* Project object */;
+}

@@ -1,0 +1,46 @@
+workflows:
+    name-workflow:
+        name: WorkSide
+        max_build_duration: 120
+        instance_type: mac_mini_m1
+        integrations:
+            app_store_connect: BJ21Luckyhand # <-- APIKEY NAME сюда вставляем имя проекта БЕЗ xcodeproj
+        environment:
+            ios_signing:
+                distribution_type: app_store
+                bundle_identifier: com.agafcard21.luckyhand # <--  сюда вставляем боевой бандл (уточнить у Игоря, должно быть в карточке асаны)
+            vars:
+                BUNDLE_ID: "com.agafcard21.luckyhand" # <-- сюда вставляем боевой бандл (уточнить у Игоря, должно быть в карточке асаны)
+                XCODE_SCHEME: "BJ21LuckyHand" # <-- сюда вставляем имя проекта БЕЗ xcodeproj, А В СТРОКУ 29 - С  xcodeproj !!!!!!!!!!
+                APP_STORE_APPLE_ID: 6636548586 # <-- сюда вставляем id прилы (уточнить у Игоря, должно быть в карточке асаны)
+            xcode: latest
+        scripts:
+            - name: Set up provisioning profiles settings on Xcode project
+              script: xcode-project use-profiles
+            - name: Increment build number
+              script: |
+                  #!/bin/sh
+                  cd $CM_BUILD_DIR
+                  LATEST_BUILD_NUMBER=$(app-store-connect get-latest-app-store-build-number "$APP_STORE_APPLE_ID")
+                  agvtool new-version -all $(($LATEST_BUILD_NUMBER + 1))
+            - name: Build ipa for distribution
+              script: |
+                  xcode-project build-ipa \
+                    --project "BJ21LuckyHand.xcodeproj" \
+                    --scheme "$XCODE_SCHEME"
+        artifacts:
+            - build/ios/ipa/*.ipa
+            - /tmp/xcodebuild_logs/*.log
+            - $HOME/Library/Developer/Xcode/DerivedData/**/Build/**/*.app
+            - $HOME/Library/Developer/Xcode/DerivedData/**/Build/**/*.dSYM
+        publishing:
+            app_store_connect:
+                auth: integration
+                submit_to_app_store: true
+            email:
+                recipients:
+                    - misant1995@gmail.com
+                    - ihordp03@gmail.com
+                notify:
+                    success: true
+                    failure: true
