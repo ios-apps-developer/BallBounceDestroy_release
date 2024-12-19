@@ -4,15 +4,15 @@ workflows:
         max_build_duration: 120
         instance_type: mac_mini_m1
         integrations:
-            app_store_connect: BJ21Luckyhand # <-- APIKEY NAME сюда вставляем имя проекта БЕЗ xcodeproj
+            app_store_connect: BallBounceDestroy # <-- APIKEY NAME сюда вставляем имя проекта БЕЗ xcodeproj
         environment:
             ios_signing:
                 distribution_type: app_store
-                bundle_identifier: com.agafcard21.luckyhand # <--  сюда вставляем боевой бандл (уточнить у Игоря, должно быть в карточке асаны)
+                bundle_identifier: com.volodymyrrumiantsev.ballbouncedestroy # <--  сюда вставляем боевой бандл (уточнить у Игоря, должно быть в карточке асаны)
             vars:
-                BUNDLE_ID: "com.agafcard21.luckyhand" # <-- сюда вставляем боевой бандл (уточнить у Игоря, должно быть в карточке асаны)
-                XCODE_SCHEME: "BJ21LuckyHand" # <-- сюда вставляем имя проекта БЕЗ xcodeproj, А В СТРОКУ 29 - С  xcodeproj !!!!!!!!!!
-                APP_STORE_APPLE_ID: 6636548586 # <-- сюда вставляем id прилы (уточнить у Игоря, должно быть в карточке асаны)
+                BUNDLE_ID: "com.volodymyrrumiantsev.ballbouncedestroy" # <-- сюда вставляем боевой бандл (уточнить у Игоря, должно быть в карточке асаны)
+                XCODE_SCHEME: "BallBounceDestroy" # <-- сюда вставляем имя проекта БЕЗ xcodeproj, А В СТРОКУ 29 - С  xcodeproj !!!!!!!!!!
+                APP_STORE_APPLE_ID: 6739582925 # <-- сюда вставляем id прилы (уточнить у Игоря, должно быть в карточке асаны)
             xcode: latest
         scripts:
             - name: Set up provisioning profiles settings on Xcode project
@@ -26,7 +26,7 @@ workflows:
             - name: Build ipa for distribution
               script: |
                   xcode-project build-ipa \
-                    --project "BJ21LuckyHand.xcodeproj" \
+                    --project "BallBounceDestroy.xcodeproj" \
                     --scheme "$XCODE_SCHEME"
         artifacts:
             - build/ios/ipa/*.ipa
