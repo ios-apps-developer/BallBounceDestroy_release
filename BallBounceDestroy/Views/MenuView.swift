@@ -4,7 +4,7 @@ struct MenuView: View {
     @ObservedObject var musicManager = MusicManager.shared
     @State private var animationProgress: CGFloat = 0
     var scaleFactor: CGFloat {
-        UIDevice.current.userInterfaceIdiom == .pad ? 2.0 : 1.0
+        UIDevice.current.userInterfaceIdiom == .pad ? 1.5 : 1.0
     }
 
     var body: some View {
@@ -59,6 +59,7 @@ struct MenuView: View {
                         .animation(.easeOut(duration: 0.8).delay(1.0), value: animationProgress)
                     }
                 }
+                .offset(y: -20)
                 .padding(.vertical, 20 * scaleFactor)
                 .padding(.horizontal, 16 * scaleFactor)
             }

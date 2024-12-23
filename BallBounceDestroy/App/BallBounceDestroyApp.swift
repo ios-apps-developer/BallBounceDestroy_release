@@ -9,6 +9,7 @@ struct BallBounceDestroyApp: App {
             ContentView()
                 .environmentObject(shopManager)
                 .environmentObject(gameCoordinator)
+                .statusBarHidden(true)
         }
     }
 }
